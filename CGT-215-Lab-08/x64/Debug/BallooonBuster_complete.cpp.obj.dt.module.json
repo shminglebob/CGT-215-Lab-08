@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CGT-215-Lab-08\\x64\\Debug\\BallooonBuster_complete.obj",
+            "outputs": [
+                "CGT-215-Lab-08\\x64\\Debug\\BallooonBuster_complete.cpp.obj.dt.module.json",
+                "CGT-215-Lab-08\\x64\\Debug\\BallooonBuster_complete.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

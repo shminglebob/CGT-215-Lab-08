@@ -1,0 +1,64 @@
+﻿  main.cpp
+C:\Users\jeric\Documents\GitHub\CGT-215-Lab-08\packages\SFPhysics.2.3.3\build\native\include\SFPhysics\BoundsCollisionResult.h(8,9): warning C4099: 'sfp::BoundsCollisionResult': type name first seen using 'class' now seen using 'struct'
+  (compiling source file 'main.cpp')
+      C:\Users\jeric\Documents\GitHub\CGT-215-Lab-08\packages\SFPhysics.2.3.3\build\native\include\SFPhysics\BoundsCollisionResult.h(8,9):
+      see declaration of 'sfp::BoundsCollisionResult'
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\type_traits(1811,67): warning C4244: 'argument': conversion from '_Ty' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\type_traits(1811,67): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\type_traits(1811,67): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\type_traits(1811,67): warning C4244:             _Ty=float
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\type_traits(1811,67): warning C4244:         ]
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\type_traits(1811,67):
+      the template instantiation context (the oldest one first) is
+          C:\Users\jeric\Documents\GitHub\CGT-215-Lab-08\packages\SFPhysics.2.3.3\build\native\include\SFPhysics\PhysicsSprite.h(8,16):
+          see reference to class template instantiation 'sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>' being compiled
+          C:\Users\jeric\Documents\GitHub\CGT-215-Lab-08\packages\SFPhysics.2.3.3\build\native\include\SFPhysics\PhysicsShapeT.h(44,2):
+          while compiling class template member function 'sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::PhysicsShapeT(void)'
+              C:\Users\jeric\Documents\GitHub\CGT-215-Lab-08\packages\SFPhysics.2.3.3\build\native\include\SFPhysics\PhysicsSprite.h(12,5):
+              see the first reference to 'sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::PhysicsShapeT' in 'sfp::PhysicsSprite::PhysicsSprite'
+          C:\Users\jeric\Documents\GitHub\CGT-215-Lab-08\packages\SFPhysics.2.3.3\build\native\include\SFPhysics\PhysicsShapeT.h(53,39):
+          see reference to function template instantiation 'std::function<void (float)> &std::function<void (float)>::operator =<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>,0>(_Fx &&)' being compiled
+          with
+          [
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\functional(1307,35):
+          see reference to function template instantiation 'std::function<void (float)>::function<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>,0>(_Fx &&)' being compiled
+          with
+          [
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\functional(1238,15):
+          see reference to function template instantiation 'void std::_Func_class<_Ret,float>::_Reset<_Ty>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Ty=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>,
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\functional(1104,23):
+          see reference to variable template 'const bool _Is_large<std::_Func_impl_no_alloc<`sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>'::`2'::<lambda_3>,void,float> >' being compiled
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\functional(873,28):
+          see reference to class template instantiation 'std::_Func_impl_no_alloc<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>,_Ret,float>' being compiled
+          with
+          [
+              _Ret=void
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\functional(1003,9):
+          while compiling class template member function '_Rx std::_Func_impl_no_alloc<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>,_Rx,float>::_Do_call(float &&)'
+          with
+          [
+              _Rx=void
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\functional(1005,25):
+          see reference to function template instantiation 'void std::invoke<_Callable&,_Ty,>(sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>&,_Ty1 &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_3>,
+              _Ty=float,
+              _Ty1=float
+          ]
+  
+  CGT-215-Lab-08.vcxproj -> C:\Users\jeric\Documents\GitHub\CGT-215-Lab-08\x64\Debug\CGT-215-Lab-08.exe
